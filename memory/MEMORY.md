@@ -27,5 +27,6 @@
 - [k30-phase2-4-cdf-remap-dense.md](k30-phase2-4-cdf-remap-dense.md) — K30 Phase 2-4: CDF Remap Dense 모델 테스트 (9.53% error, 3.90x speedup, batch 최적)
 - [k30-phase2-5-cdf-remap-7b-e2e.md](k30-phase2-5-cdf-remap-7b-e2e.md) — K30 Phase 2-5: CDF Remap Qwen2.5-7B E2E 테스트 (9.43% error, 2.48x speedup, 모든 크기에서 일관)
 - [k30-phase2-6-quant-methods-comparison.md](k30-phase2-6-quant-methods-comparison.md) — K30 Phase 2-6: 양자화 방식 비교 (CDF Remap이 SmoothQuant보다 5.7%, llama.cpp보다 12.5% 더 낮은 error)
+- [k30-phase3-1-ppl-wikitext.md](k30-phase3-1-ppl-wikitext.md) — K30 Phase 3-1: WikiText-2 PPL 측정 (CDF Remap이 FP16보다 4.1% 더 낮은 PPL 달성!)
 - [project-3090-server-roadmap.md](project-3090-server-roadmap.md) — 3090 서버 AI 환경 구축 로드맵 (Proxmox→Ubuntu 마이그레이션 후)
 - [project-migrate-proxmox-to-ubuntu-zfs-docker-k3s.md](project-migrate-proxmox-to-ubuntu-zfs-docker-k3s.md) — Proxmox→Ubuntu 마이그레이션 계획 (완료)
