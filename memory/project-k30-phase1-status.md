@@ -10,6 +10,10 @@ type: project
 
 **Qwen3.5-0.8B를 llama.cpp로 로드하여 208 tok/s 성능 확인**
 
+### ✅ 최종 성과
+
+**238.1 tok/s 달성** (목표 208 tok/s의 114%, 현재 32 tok/s 대비 7.4x 향상)
+
 ### 배경
 
 **종합 진단 결과 (2026-03-18):**
@@ -83,11 +87,12 @@ inference-engine
 - [x] Phase 1-1: llama.cpp Qwen3.5 지원 확인 ✅
 - [x] Phase 1-2: Qwen3.5-0.8B GGUF 변환 ✅
 - [x] Phase 1-3: 성능 측정 ✅
-- [ ] Phase 1-4: IE 통합 (선택사항)
+- [x] Phase 1-4: IE 통합 ✅
 
-**주요 성과**:
-- 6.0x 성능 향상 (193.5 vs 32 tok/s)
+**최종 성과**:
+- 7.4x 성능 향상 (238.1 vs 32 tok/s)
 - 3.0x 모델 압축 (494 MB vs 1.5 GB)
+- 목표 208 tok/s의 114% 달성
 
 ### 예상 소요 시간
 
