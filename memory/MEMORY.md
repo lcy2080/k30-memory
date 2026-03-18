@@ -22,3 +22,10 @@
 - [k30-phase1-1-findings.md](k30-phase1-1-findings.md) — K30 Phase 1-1 결과: llama.cpp Qwen3.5 지원 확인 완료
 - [k30-phase1-2-findings.md](k30-phase1-2-findings.md) — K30 Phase 1-2/1-3 결과: Qwen3.5-0.8B GGUF 변환 및 193.5 tok/s 달성
 - [k30-phase1-final.md](k30-phase1-final.md) — K30 Phase 1 최종 결과: 238.1 tok/s 달성, IE 통합 완료
+- [k30-phase2-2-gridquant-lut-findings.md](k30-phase2-2-gridquant-lut-findings.md) — K30 Phase 2-2: Grid Quant & Learned LUT 테스트 결과 (Batch inference 5.37x)
+- [k30-phase2-3-gridquant-limits.md](k30-phase2-3-gridquant-limits.md) — K30 Phase 2-3: GridQuant 파라미터별 한계 측정 (RVQ 10.48% error, 2.69x speedup)
+- [k30-phase2-4-cdf-remap-dense.md](k30-phase2-4-cdf-remap-dense.md) — K30 Phase 2-4: CDF Remap Dense 모델 테스트 (9.53% error, 3.90x speedup, batch 최적)
+- [k30-phase2-5-cdf-remap-7b-e2e.md](k30-phase2-5-cdf-remap-7b-e2e.md) — K30 Phase 2-5: CDF Remap Qwen2.5-7B E2E 테스트 (9.43% error, 2.48x speedup, 모든 크기에서 일관)
+- [k30-phase2-6-quant-methods-comparison.md](k30-phase2-6-quant-methods-comparison.md) — K30 Phase 2-6: 양자화 방식 비교 (CDF Remap이 SmoothQuant보다 5.7%, llama.cpp보다 12.5% 더 낮은 error)
+- [project-3090-server-roadmap.md](project-3090-server-roadmap.md) — 3090 서버 AI 환경 구축 로드맵 (Proxmox→Ubuntu 마이그레이션 후)
+- [project-migrate-proxmox-to-ubuntu-zfs-docker-k3s.md](project-migrate-proxmox-to-ubuntu-zfs-docker-k3s.md) — Proxmox→Ubuntu 마이그레이션 계획 (완료)
