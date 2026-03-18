@@ -20,3 +20,4 @@
 - [project-k31-tier3-diagnosis-20260318.md](project-k31-tier3-diagnosis-20260318.md) — K31 Tier 3 정밀 진단 결과 (2026-03-18) - 작동 기능, 알려진 문제, 권장 다음 단계
 - [project-k30-phase1-status.md](project-k30-phase1-status.md) — ★현재★ K30 Phase 1 llama.cpp 백엔드 통합 진행 상태
 - [k30-phase1-1-findings.md](k30-phase1-1-findings.md) — K30 Phase 1-1 결과: llama.cpp Qwen3.5 지원 확인 완료
+- [k30-phase1-2-findings.md](k30-phase1-2-findings.md) — K30 Phase 1-2/1-3 결과: Qwen3.5-0.8B GGUF 변환 및 193.5 tok/s 달성
